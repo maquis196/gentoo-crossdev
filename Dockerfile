@@ -16,13 +16,3 @@ GENTOO_MIRRORS="https://mirror.bytemark.co.uk/gentoo/"' >> /etc/portage/make.con
 			sys-devel/crossdev \
 			sys-devel/distcc && \
                 	rm -rf /usr/portage/distfiles/*
-
-
-#
-#
-#ARG TARGET=alpha-unknown-linux-gnu
-#ARG ARCH=alpha
-#
-#ARG STAGE3_FILE="stage3-${ARCH}-${STAGE3_DATE}.tar.bz2"
-
-
