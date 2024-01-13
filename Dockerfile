@@ -12,7 +12,6 @@ EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=10 --load-average=8"\n\
 GENTOO_MIRRORS="https://mirror.bytemark.co.uk/gentoo/"' >> /etc/portage/make.conf && \
 # install crossdev and distcc
 	emerge --quiet	app-editors/vim \
-			app-portage/layman \
 			sys-devel/crossdev \
 			sys-devel/distcc && \
                 	rm -rf /usr/portage/distfiles/*
